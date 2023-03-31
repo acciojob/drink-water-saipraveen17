@@ -1,1 +1,88 @@
-/*  your css code here. If applicable */
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #aee1e1;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-top: 0;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+.cup {
+  width: 300px;
+  height: 600px;
+  border-radius: 50% 50% 0 0;
+  border: 10px solid #fff;
+  background-color: #60a3bc;
+  position: relative;
+  margin-top: 2rem;
+}
+
+.remained {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3rem;
+  color: #fff;
+}
+
+.percentage {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0;
+  background-color: #2f5d62;
+}
+
+.text {
+  margin: 2rem 0 0;
+}
+
+.cups {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  max-width: 800px;
+  margin-top: 2rem;
+}
+
+.cup-small {
+  width: 80px;
+  height: 160px;
+  border: 2px solid #fff;
+  border-radius: 50% 50% 0 0;
+  background-color: #60a3bc;
+  position: relative;
+  cursor: pointer;
+}
+
+.cup-small:before {
+  content: '';
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.cup-small:after {
+  content: '';
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent
