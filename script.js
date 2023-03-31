@@ -1,6 +1,6 @@
 const largeCup = document.querySelector('.cup');
-const remained = document.querySelector('.remained');
-const percentage = document.querySelector('.percentage');
+const remained = document.querySelector('#remained');
+const percentage = document.querySelector('#percentage');
 const cups = document.querySelectorAll('.cup-small');
 
 const target = 2;

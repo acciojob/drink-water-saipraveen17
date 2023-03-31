@@ -28,7 +28,7 @@ h3 {
   margin-top: 2rem;
 }
 
-.remained {
+#remained {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -37,7 +37,7 @@ h3 {
   color: #fff;
 }
 
-.percentage {
+#percentage {
   position: absolute;
   bottom: 0;
   left: 0;
